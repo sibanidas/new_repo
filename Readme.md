@@ -5,9 +5,9 @@ and write the output as partitioned parquet file
 
 ## Features
 -Remove nulls and trim whitespaces 
--Normalize emails to lowercase
+-Replace null emails to "Unknown"
 -Replace null countries with "Unknown"
--Partition data by country and signup_year
+
 
 ## Input
 see sample_data/customers.json
